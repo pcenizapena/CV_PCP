@@ -1,10 +1,43 @@
+#bodisito {
+    margin: 0px;
+}
+#navegador {
+    position: fixed;
+    background-color: yellowgreen;
+    overflow: hidden;
+    margin: 0px;
+}
+#mainRibbon {
+    display: flex;
+    flex-direction: row;
+} 
 #foto-perfil {
+    margin-top: 5%;
     height: 400px;
     width: 400px;
     border-radius: 400px;
 }
 .logo {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.mybtn {
+    border-radius: 40%;
+}
+.mybtnCV {
+    font-weight: 400;
+    border-radius: 2em;
+}
+#listilla {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.auxiliar {
+    text-decoration: none;
+}
+.elementList {
+    margin-left: 40px;
 }
