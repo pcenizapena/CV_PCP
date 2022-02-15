@@ -1,22 +1,50 @@
 #bodisito {
     margin: 0px;
+    background-color: white;
 }
 #navegador {
     position: fixed;
-    background-color: yellowgreen;
+    width: 100%;
+    background-color: rgb(5, 80, 30);
     overflow: hidden;
     margin: 0px;
 }
 #mainRibbon {
     display: flex;
     flex-direction: row;
-    color: white;
-} 
+    justify-content: space-between;
+    margin-left: 2%;
+}   
+#secondRibbon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20%;
+}
+.elementList {
+    margin-right: 80%;
+}
+.divs {
+    padding: 1%;
+}
+.bloques {
+    display: flex;
+    justify-content: center;
+}
+.texto {
+    font-size: larger;
+    text-align: center;
+}
+#nombre {
+    font-size: 250%;
+    font-weight: bold;
+}
 #foto-perfil {
     margin-top: 5%;
     height: 400px;
     width: 400px;
     border-radius: 400px;
+    
 }
 .logo {
     height: 60px;
@@ -27,8 +55,11 @@
     border-radius: 40%;
 }
 .mybtnCV {
+    padding: 1%;
     font-weight: 400;
     border-radius: 2em;
+    background-color: rgb(5, 80, 30);
+    color: white;
 }
 #listilla {
     list-style-type: none;
@@ -38,7 +69,7 @@
 }
 .auxiliar {
     text-decoration: none;
-}
-.elementList {
-    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
