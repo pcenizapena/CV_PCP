@@ -1,6 +1,6 @@
 #bodisito {
     margin: 0px;
-    background-color: white;
+    background-color: rgba(222, 243, 223, 0.753);
 }
 #navegador {
     position: fixed;
@@ -41,9 +41,10 @@
 }
 #foto-perfil {
     margin-top: 5%;
-    height: 400px;
-    width: 400px;
+    height: 10%;
+    width: 20%;
     border-radius: 400px;
+    background-size: contain;
     
 }
 .logo {
@@ -72,4 +73,7 @@
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+.oculto {
+    display: none;
 }
